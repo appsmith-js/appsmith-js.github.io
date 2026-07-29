@@ -1,49 +1,102 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/cookr-customer-app.png",
+    title: "Cookr - Customer App",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "The customer-facing mobile application for Cookr, a D2C food delivery platform that scaled to 1M+ downloads and was awarded 'Best D2C Startup of the Year' by The Economic Times in 2024.",
+    tech_stack: [
+      "React Native",
+      "Google Cloud",
+      "Netcore",
+      "Jest",
+      "Redux",
+      "Animation Libraries",
+      "Figma",
+      "Jest",
+      "React Navigation",
+      "Razorpay",
+      "Google Maps API",
+    ],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    app_store_url:
+      "https://apps.apple.com/in/app/cookr-celebrate-home-food/id6443843497", // For iOS apps
+    play_store_url:
+      "https://play.google.com/store/apps/details?id=com.cookr.customer&pcampaignid=web_share", // For An
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/cookr-chef-app.png",
+    title: "Cookr - Chef App",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "The chef-facing mobile application for Cookr, designed to streamline order management and communication within the kitchen.",
+    tech_stack: [
+      "React Native",
+      "Google Cloud",
+      "Jest",
+      "Redux",
+      "Animation Libraries",
+      "Figma",
+      "Jest",
+      "React Navigation",
+      "Razorpay",
+      "Google Maps API",
+    ],
     github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+    play_store_url:
+      "https://play.google.com/store/apps/details?id=com.cookr.homechef&pcampaignid=web_share ", // For Android
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/cookr-delivery-partner.png",
+    title: "Cookr - Delivery App",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "The delivery-facing mobile application for Cookr, designed to optimize delivery routes and improve communication between drivers and customers.",
+    tech_stack: [
+      "React Native",
+      "Google Cloud",
+      "Jest",
+      "Redux",
+      "Animation Libraries",
+      "Figma",
+      "Jest",
+      "React Navigation",
+      "Razorpay",
+      "Google Maps API",
+      "Native modules",
+    ],
+    github_url: "",
+    play_store_url:
+      "https://play.google.com/store/apps/details?id=com.cookr.deliverypartner&pcampaignid=web_share", // For Android apps
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/my-eicher-school.png",
+    title: "My Eicher School",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "Live school bus tracking app for parents and students to track school buses in real-time, ensuring safety and timely arrivals.",
+    tech_stack: [
+      "React Native",
+      "Google Cloud",
+      "Jest",
+      "Redux",
+      "Animation Libraries",
+      "Figma",
+      "Jest",
+      "React Navigation",
+      "Google Maps API",
+    ],
+    app_store_url:
+      "https://apps.apple.com/in/app/my-eicher-schools/id6733242385",
+    play_store_url:
+      "https://play.google.com/store/apps/details?id=com.myeicher.schools&pcampaignid=web_share",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/kotak-mf.png",
+    title: "Kotak Mutul Fund",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "A mobile app for managing mutual funds with Kotak Mahindra Bank.",
+    tech_stack: ["React Native","Expo", "Redux", "React Navigation", "Figma", "Jest", "Animation Libraries"],
+   app_store_url:
+      "https://apps.apple.com/in/app/kotak-mutual-fund-sip-elss/id878896606", // For iOS apps
+    play_store_url:"https://play.google.com/store/apps/details?id=com.godbtech.kotakmf&pcampaignid=web_share"
   },
 ];
 
@@ -83,55 +136,40 @@ export const stackList = [
     name: "React Native",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    name: "NodeJS",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
     name: "Firebase",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-    name: "MySQL",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
   },
+  // ===== NEW SKILLS ADDED BELOW =====
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    name: "Redux",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    name: "Redux Toolkit",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/expo/expo-original.svg",
+    name: "Expo",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    name: "React Navigation",
+  },
+ {
+  img: "/cursor-ai-code-icon.svg",
+  name: "Cursor",
+},
+  {
+  img: "/copilot-icon.svg",
+  name: "Copilot",
+}
 ];

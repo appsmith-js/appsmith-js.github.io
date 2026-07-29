@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://salesp07.github.io",
+  "homepage": "https://appsmith-js.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "ajv": "^8.12.0",
     "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.7",

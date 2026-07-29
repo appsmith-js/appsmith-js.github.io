@@ -9,6 +9,7 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+
 function ProjectCard() {
   return (
     <>
@@ -27,24 +28,46 @@ function ProjectCard() {
                 ))}
               </TechCardContainer>
               <BtnGroup>
-                {list.github_url.length > 0 && (
+                {list.github_url && list.github_url.length > 0 && (
                   <a
-                    className="btn SecondaryBtn btn-shadow"
+                    className="btn btn-github"
                     href={list.github_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
+                    <i className="fab fa-github"></i> GitHub
                   </a>
                 )}
-                {list.demo_url.length > 0 && (
+                
+                {list.app_store_url && list.app_store_url.length > 0 && (
                   <a
-                    className="btn PrimaryBtn btn-shadow"
-                    href={list.demo_url}
+                    className="btn btn-apple"
+                    href={list.app_store_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Demo ➜
+                    <img 
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg" 
+                      alt="App Store"
+                      style={{ width: "18px", height: "18px", filter: "invert(1)" }}
+                    />
+                    App Store
+                  </a>
+                )}
+                
+                {list.play_store_url && list.play_store_url.length > 0 && (
+                  <a
+                    className="btn btn-android"
+                    href={list.play_store_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img 
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" 
+                      alt="Play Store"
+                      style={{ width: "18px", height: "18px" }}
+                    />
+                    Play Store
                   </a>
                 )}
               </BtnGroup>
